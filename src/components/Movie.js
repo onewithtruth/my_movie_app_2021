@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css"
+import "../routes/Home.css"
 import "./Movie.css"
 import PropTypes from "prop-types";
 

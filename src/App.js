@@ -6,11 +6,11 @@ import About from "./routes/About"
 function App() {
   return (
     <HashRouter>
-      <Route path="/">
-        <h1>Home</h1>
+      <Route path="/" exact={true}>
+        <Home />
       </Route>
       <Route path="/about">
-        <h1>About</h1>
+        <About />
       </Route>
     </HashRouter>
   )
